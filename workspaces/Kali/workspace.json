@@ -1,18 +1,25 @@
 {
+  "friendly_name": "Kali Rolling Desktop - Default Tools",
   "description": "Kali Rolling Desktop (Kasm) with the kali-linux-default metapackage installed.",
-  "docker_registry": "https://index.docker.io/v1/",
   "image_src": "pepe-hacker.jpg",
   "categories": ["Security", "Operating systems"],
-  "friendly_name": "Kali Rolling Desktop - Default Tools",
   "architecture": ["amd64"],
+
+  "docker_registry": "https://ghcr.io",
+
+  "cores": 4,
+  "memory": 8192,
+  "gpu_count": 0,
+  "cpu_allocation_method": "Inherit",
+
+  "notes": "Heavier desktop image (kali-linux-default). If sessions restart/crash, increase memory/cores and verify the agent host has sufficient free RAM/CPU.",
+
   "compatibility": [
     {
       "version": "1.18.x",
       "image": "ghcr.io/ruffyjk/kasm-kali-default:1.18.0-kali-default",
       "uncompressed_size_mb": 15000,
-      "available_tags": [
-        "1.18.0-kali-default"
-      ]
+      "available_tags": ["1.18.0-kali-default"]
     }
   ]
 }
