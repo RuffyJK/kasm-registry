@@ -1,0 +1,24 @@
+{
+  "friendly_name": "TEST",
+  "description": "TESTING HERE MAN!!!!.",
+  "image_src": "test.jpg",
+  "categories": ["Security", "Operating systems"],
+  "architecture": ["amd64"],
+
+  "docker_registry": "https://ghcr.io",
+
+  "cores": 4,
+  "memory": 8192,
+  "gpu_count": 0,
+
+  "notes": "IM WORKING ON IT!!!",
+
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "ghcr.io/ruffyjk/kasm-kali-default:1.18.0-smoke",
+      "uncompressed_size_mb": 15000,
+      "available_tags": ["1.18.0-kali-default"]
+    }
+  ]
+}
