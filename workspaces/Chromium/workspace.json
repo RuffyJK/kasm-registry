@@ -16,7 +16,7 @@
   "categories": [
     "Browser"
   ],
-  "friendly_name": "Chromium",
+  "friendly_name": "Chromium Test",
   "architecture": [
     "amd64",
     "arm64"
