@@ -1,7 +1,7 @@
 {
   "friendly_name": "Kali Rolling Desktop - SMOKE",
   "description": "Smoke test image to validate custom registry + pull + launch.",
-  "image_src": "pepe-hacker.jpg",
+  "image_src": "test.jpg",
   "categories": ["Security", "Operating systems"],
   "architecture": ["amd64"],
 
