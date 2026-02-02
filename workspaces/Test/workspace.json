@@ -18,7 +18,7 @@
       "version": "1.18.x",
       "image": "ghcr.io/ruffyjk/kasm-kali-default:1.18.0-smoke",
       "uncompressed_size_mb": 15000,
-      "available_tags": ["1.18.0-kali-default"]
+      "available_tags": ["1.18.0-smoke"]
     }
   ]
 }
