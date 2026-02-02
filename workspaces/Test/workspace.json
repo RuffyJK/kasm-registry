@@ -1,7 +1,7 @@
 {
   "friendly_name": "TEST",
   "description": "TESTING HERE MAN!!!!.",
-  "image_src": "test.jpg",
+  "image_src": "test.jpeg",
   "categories": ["Security", "Operating systems"],
   "architecture": ["amd64"],
 
