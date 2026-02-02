@@ -1,24 +1,22 @@
 {
-  "friendly_name": "TEST",
-  "description": "TESTING HERE MAN!!!!.",
-  "image_src": "test.jpeg",
+  "friendly_name": "Kali Rolling Desktop - SMOKE",
+  "description": "Smoke test image to validate custom registry + pull + launch.",
+  "image_src": "pepe-hacker.jpg",
   "categories": ["Security", "Operating systems"],
   "architecture": ["amd64"],
 
   "docker_registry": "https://ghcr.io",
 
-  "cores": 4,
-  "memory": 8192,
+  "cores": 2,
+  "memory": 4096,
   "gpu_count": 0,
-
-  "notes": "IM WORKING ON IT!!!",
+  "cpu_allocation_method": "Inherit",
 
   "compatibility": [
     {
       "version": "1.18.x",
       "image": "ghcr.io/ruffyjk/kasm-kali-default:1.18.0-smoke",
-      "uncompressed_size_mb": 15000,
-      "available_tags": ["1.18.0-smoke"]
+      "uncompressed_size_mb": 15000
     }
   ]
 }
