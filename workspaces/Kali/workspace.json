@@ -1,0 +1,18 @@
+{
+  "description": "Kali Rolling Desktop (Kasm) with the kali-linux-default metapackage installed.",
+  "docker_registry": "https://index.docker.io/v1/",
+  "image_src": "pepe-hacker.jpg",
+  "categories": ["Security", "Operating systems"],
+  "friendly_name": "Kali Rolling Desktop - Default Tools",
+  "architecture": ["amd64"],
+  "compatibility": [
+    {
+      "version": "1.18.x",
+      "image": "ghcr.io/ruffyjk/kasm-kali-default:1.18.0-kali-default",
+      "uncompressed_size_mb": 0,
+      "available_tags": [
+        "1.18.0-kali-default"
+      ]
+    }
+  ]
+}
